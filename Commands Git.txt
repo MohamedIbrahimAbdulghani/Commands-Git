@@ -1,0 +1,9 @@
+1 - git init  ==> this is first step to connect repository by location
+
+2 - git add .  ==> to added project files in repository 
+
+3 - git commit -m " your commit "   ==> to make comment when you make any edit in your project
+
+4 - git push -u origin master  ==> to push your edit in your repository 
+
+5 - 
