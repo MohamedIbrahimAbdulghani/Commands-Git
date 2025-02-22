@@ -6,4 +6,8 @@
 
 4 - git push -u origin master  ==> to push your edit in your repository 
 
-5 - 
+5 - git clone url_repositry_project   ==>  to download project from git and make any edit or to make copy from project
+
+6 - git pull origin master  ==> to pull edit from your team about repository  ->  to get last edit about this repository or about this project
+
+7 - 
