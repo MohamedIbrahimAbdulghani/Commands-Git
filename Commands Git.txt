@@ -10,4 +10,6 @@
 
 6 - git pull origin master  ==> to pull edit from your team about repository  ->  to get last edit about this repository or about this project
 
-7 - 
+7 - git reflog ==> to get commits id and you take any id and make chackout about this id and get the data
+
+8 - git checkout id_commit  => To go back to the previous version of the project
