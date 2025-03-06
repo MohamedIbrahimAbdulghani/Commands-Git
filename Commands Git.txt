@@ -13,3 +13,5 @@
 7 - git reflog ==> to get commits id and you take any id and make chackout about this id and get the data
 
 8 - git checkout id_commit  => To go back to the previous version of the project
+
+9 - git log    => to get information about user he will upload any edit about this repositry
