@@ -21,3 +21,5 @@
 11 - git checkout -b new_branch_name => To make a new branch from a master and move the new brach ' any edit will related by new branch not by master because the checkout keywoard '
 
 12 - git merge new_branch_name => To Merge new branch by master branch
+
+13 - 
