@@ -24,4 +24,4 @@
 
 13 - git merge --squash new_branch_name => To Merge new branch to master branch but type for this merge is squash branch
 
-14 - 
+14 -  
