@@ -24,4 +24,13 @@
 
 13 - git merge --squash new_branch_name => To Merge new branch to master branch but type for this merge is squash branch
 
-14 -  
+14 -  git ls-files => To show files in index or files in Staging, my git repository don't track any files
+
+15 - git rm --cached file_name  => to make rollback or make undo from Staging to working director
+
+16 - git ls-files -s => to show files in Staging (type, hash_id, null)
+
+if i want to get information about files about Staging => open .git => open objects => write this (find -type f) to get information type about files, take hash id
+	=> *-*  git cat-file -t <hash_id> => to check if this file is blob or not 
+	=> *-*  git cat-file -s <hash_id> => to get size for this file
+	=> *-*  git cat-file -p <hash_id> => to get content about this file
