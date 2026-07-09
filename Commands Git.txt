@@ -34,3 +34,7 @@ if i want to get information about files about Staging => open .git => open obje
 	=> *-*  git cat-file -t <hash_id> => to check if this file is blob or not
 	=> *-*  git cat-file -s <hash_id> => to get size for this file
 	=> *-*  git cat-file -p <hash_id> => to get content about this file
+
+17 - git diff => to show what is different between Working Tree and Staging or Index
+
+18 - git diff --staged => to show what is different between Staging and Repo
