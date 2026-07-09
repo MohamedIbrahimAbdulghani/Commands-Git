@@ -31,8 +31,6 @@
 16 - git ls-files -s => to show files in Staging (type, hash_id, null)
 
 if i want to get information about files about Staging => open .git => open objects => write this (find -type f) to get information type about files, take hash id
-	=> *-*  git cat-file -t <hash_id> => to check if this file is blob or not 
+	=> *-*  git cat-file -t <hash_id> => to check if this file is blob or not
 	=> *-*  git cat-file -s <hash_id> => to get size for this file
 	=> *-*  git cat-file -p <hash_id> => to get content about this file
-	
-17 - git diff => to show what is different between Working Tree and Staging or Index
