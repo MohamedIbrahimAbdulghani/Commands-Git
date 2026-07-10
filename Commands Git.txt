@@ -1,12 +1,12 @@
 1 - git init  ==> this is first step to connect repository by location
 
-2 - git add .  ==> to added project files in repository 
+2 - git add .  ==> to added project files in repository
 
 3 - git commit -m " your commit "   ==> to make comment when you make any edit in your project
 
-4 - git push -u origin master  ==> to push your edit in your repository 
+4 - git push -u origin master  ==> to push your edit in your repository
 
-5 - git clone url_repositry_project   ==>  to download project from git and make any edit or to make copy from project
+5 - git clone url_repository_project   ==>  to download project from git and make any edit or to make copy from project
 
 6 - git pull origin master  ==> to pull edit from your team about repository  ->  to get last edit about this repository or about this project
 
@@ -18,7 +18,7 @@
 
 10 - git checkout  branch_name => to enter or to choose your branch
 
-11 - git checkout -b new_branch_name => To make a new branch from a master and move the new brach ' any edit will related by new branch not by master because the checkout keywoard '
+11 - git checkout -b new_branch_name => To make a new branch from a master and move the new brach ' any edit will related by new branch not by master because the checkout keyword '
 
 12 - git merge new_branch_name => To Merge new branch to master branch
 
@@ -38,3 +38,17 @@ if i want to get information about files about Staging => open .git => open obje
 17 - git diff => to show what is different between Working Tree and Staging or Index
 
 18 - git diff --staged => to show what is different between Staging and Repo
+
+19 - git diff <hash_id>..<hash_id>  => to show what is different between two commits or between two trees
+
+20 - git rm -rf .git/  => to delete git repo folder
+
+21 - git rm --cached file_name  => to make undo from tracking or delete file from git only (Stop tracking the file in Git without deleting it from your computer)
+
+22 - git restore file_name  => to undo about last edit or restore the file to the last version present in the last Commit, while undoing any local modifications that were not Committed.
+
+23 - git restore --staged file_name  => Remove the file from the Staging Area while preserving all existing changes to the file. ( This will change the state of the files from staged to unstaged but The file's modifications remain unchanged; only its staging status changes. )
+
+24 - git commit --amend  => to make edit about last commit message
+
+25 - git reset HEAD~1 => to Move HEAD and master back by one commit
