@@ -18,7 +18,7 @@
 
 10 - git checkout  branch_name => to enter or to choose your branch
 
-11 - git checkout -b new_branch_name => To make a new branch from a master and move the new brach ' any edit will related by new branch not by master because the checkout keyword '
+11 - git checkout -b new_branch_name => To make a new branch from a master and move the new branch ' any edit will related by new branch not by master because the checkout keyword '
 
 12 - git merge new_branch_name => To Merge new branch to master branch
 
@@ -52,3 +52,19 @@ if i want to get information about files about Staging => open .git => open obje
 24 - git commit --amend  => to make edit about last commit message
 
 25 - git reset HEAD~1 => to Move HEAD and master back by one commit
+
+26 - git tag -a v2.0 -m " This Is Version 2.0 Of File "  =>  To Make New Version From Project
+
+27 - git branch branch_name => To Make A New Branch
+
+28 - git branch => To Know How Many branchs In This Repo
+
+29 - git switch branch_name => To Make Switch Between The branch_name and the Master branch ( But Make branch_name is the master branch 'HEAD' branch)
+
+30 - git merge branch_name => to make merge between two branchs ( You Must Make Switch To Master Branch Not The New Branch No The HEAD Master ,Then Make a Switch )
+
+31 - git branch --merged => To show which branches have been merged into the main branch
+
+32 - git branch -d branch_name => To delete the branch after merging it with the master branch
+
+33 - 
